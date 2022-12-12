@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section{
+    width: 100%;
+    height: 1080px;
+    background-color: #FFB4CD;
+}
+.box{
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    top: 391px; 
+    
+}

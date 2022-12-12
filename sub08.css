@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav{
+    width: 100%;
+    height: 238px;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}  
+
+.menubar{
+    height: 238px;
+    display: flex;
+    justify-content: center;
+    top: 49px;
+}
+
+.menubar:hover{background-image: url('img/njsbt.png');}
+
+.box{
+    position: relative;
+    width: 100%;
+    justify-content: center;   
+    display: flex;
+}
+
+.box1{
+    width: 100%;
+    height: 1077px;
+    background-image: url(img/njs00.png);
+}
+
+.box2{
+    padding-top: 126px;
+    padding-bottom: 155px;
+}
+
+.box3{
+    width: 100%;
+    height: 1281px;
+}
+.box4{
+    padding-top: 155px;
+    padding-bottom: 50px;}
+
+.box5{padding-bottom: 115px;}
+.box6{padding-bottom: 50px;}
+.box7{padding-bottom: 165px;}
+.box8{padding-bottom: 50px;}
+.box9{padding-bottom: 165px;}
+
+.tit {
+    position: absolute;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    color: #606060;
+    font-weight: Medium;
+}
+
+.tit01{
+    border: 0px solid red;
+    width: 100%; 
+    height: 64px; 
+}
+
+.tit02{
+    border: 0px solid red;
+    width: 100%; 
+    height: 129px; 
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #FFB4CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot{
+    width: 1100px;
+    height: 44px;
+    position: absolute;
+    text-align: right;
+
+}
+
+.foot02{
+    width: 1100px;
+    height: 21px;
+    position: absolute;
+    text-align: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: Medium;
+    margin-top: 72px;
+}

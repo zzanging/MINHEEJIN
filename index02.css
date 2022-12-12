@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section{
+    width: 100%;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    
+}
+
+.box1{
+    width: 100%;
+    height: 1080px;
+    background-image: url(img/mhj.png);
+    top: 55px;
+}
+
+.mhj{
+    width: 291px;
+    height: 121px;
+    position: absolute;
+    top: 480px;
+    right: 410px;
+
+}
+
